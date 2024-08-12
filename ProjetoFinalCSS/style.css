@@ -1,0 +1,128 @@
+:root{
+    --corverde: #CDE2B3;
+    --corverdeescura: #65922D;
+    --corpreta: #1D1D1B;
+    --corbranca: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-bottom:  5px solid var(--corverde);
+}
+
+.logo {
+    font-size: 24px;
+    font-size: 30px;
+
+}
+.logo span{
+    background-color: var(--corverde);
+    padding-left: 1rem;
+}
+
+.nav-bar {
+    justify-self: end;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    margin-left: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    border: 5px solid var(--corverde);
+
+}
+
+.tex1{
+    width: 40.5rem;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 5rem;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+.b1{
+    display: flex;
+    justify-content: center;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+}
+.prof span{
+    color: var(--corverde);
+}
+.c0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+.c1,.c1,.c3, .pr{
+    margin: 1rem;    
+}
+.pt{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.p0{
+    
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: var(--corverdeescura);
+    color: var(--corbranca);
+    width: 100%;
+}
+.main-footer{
+    display: flex;
+    justify-content: start;
+    padding: 2rem;
+    
+}
+.logo2 span{
+    background-color: var(--corverde);
+    padding-left: 1rem;
+}
+.submenu{
+    margin-left: 1.5rem;
+    color: var(--corbranca);
+}
+
