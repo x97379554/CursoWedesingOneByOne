@@ -51,13 +51,20 @@ header {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 3px;
 }
 
 .nav-bar ul li a:hover {
-    border: 5px solid var(--corverde);
+    border-bottom:  1px solid var(--corverde);
+    padding: 3px;
 
 }
+.p1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 .tex1{
     width: 40.5rem;
@@ -67,13 +74,10 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
-    margin: 5rem;
+    margin: 3rem;
 }
 
-.p1{
-    display: flex;
-    justify-content: center;
-}
+
 
 .b1{
     display: flex;
@@ -82,29 +86,47 @@ header {
 .prof{
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
+    
 }
 .prof span{
+    padding: 1rem;
     color: var(--corverde);
 }
 .c0{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 3rem;
+    margin-bottom: 5.5rem;
+
 }
-.c1,.c1,.c3, .pr{
+.des {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.c1 img{
+    border: 5px solid var(--corverde);
+}
+.c1, .pr{
     margin: 1rem;    
 }
-.pt{
+.pt, .ae{
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
+}
+.pt{
+    font-size: 23px;
 }
 .p0{
     
     display: flex;
     justify-content: center;
+    margin-bottom: 2.5rem;
 }
+
 
 footer{
     background-color: var(--corverdeescura);
@@ -115,6 +137,7 @@ footer{
     display: flex;
     justify-content: start;
     padding: 2rem;
+    margin-bottom: 3rem;
     
 }
 .logo2 span{
@@ -122,7 +145,22 @@ footer{
     padding-left: 1rem;
 }
 .submenu{
-    margin-left: 1.5rem;
+    margin-left: 3.5rem;
     color: var(--corbranca);
+}
+.submenu a{
+    color: var(--corbranca);
+    text-decoration: none;
+    
+}
+.redes{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 77rem;
+   
+}
+.redes img{
+    margin-right: 1rem;
 }
 
