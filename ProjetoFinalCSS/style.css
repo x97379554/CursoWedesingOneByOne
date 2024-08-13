@@ -55,7 +55,7 @@ header {
 }
 
 .nav-bar ul li a:hover {
-    border-bottom:  1px solid var(--corverde);
+    border-bottom:  3px solid var(--corverde);
     padding: 3px;
 
 }
@@ -82,6 +82,7 @@ header {
 .b1{
     display: flex;
     justify-content: center;
+    
 }
 .prof{
     display: flex;
@@ -97,8 +98,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5.5rem;
+    margin-bottom: 3rem;
 
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 50%;
+    height: 10%;
 }
 .des {
     display: flex;
@@ -106,6 +116,14 @@ header {
     justify-content: center;
     width: 100%;
 }
+.pt, .des {
+    text-align: center;
+}
+.c0 img {
+    max-width: 100%;
+    height: auto;
+}
+
 .c1 img{
     border: 5px solid var(--corverde);
 }
@@ -163,4 +181,62 @@ footer{
 .redes img{
     margin-right: 1rem;
 }
+.contact-form {
+    max-width: 300px;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 7px;
+    margin-left: 15rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group input  {
+    padding-left: 2rem;
+}
+.form-group textarea{
+    padding-left: 2rem;
+}
+
+
+
+.input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    color: #666;
+    
+}
+
+
+.submit-btn {
+    padding: 10px;
+    background-color: var(--corbranca);
+    color: var(--corpreta);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit-btn {
+    background-color: var(--corverdeescura);
+    color: var(--corbranca);
+}
+
+.submit-btn:hover {
+    background-color: var(--corverde);
+}
+
 
