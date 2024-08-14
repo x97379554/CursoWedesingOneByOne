@@ -382,3 +382,58 @@ footer{
 
 
 
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .nav-bar {
+        justify-self: center;
+        margin-top: 10px;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submenu, .redes {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .redes {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .perfil img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .perfil h3 {
+        font-size: 20px;
+    }
+
+    .descricao h2, .contato h2 {
+        font-size: 16px;
+    }
+}
