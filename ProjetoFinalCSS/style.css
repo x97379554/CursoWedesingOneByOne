@@ -366,16 +366,14 @@ footer{
 }
 
 .contato ul {
-    list-style: none;
     padding: 0;
+    color: var(--corverde);
 }
 
-.contato ul li {
-    margin-bottom: 5px;
-}
 
 .contato ul li a {
     color: var(--corverde);
+    text-decoration: none;
 }
 .perfil2{
     margin-left: 30rem;
