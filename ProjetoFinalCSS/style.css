@@ -239,4 +239,104 @@ footer{
     background-color: var(--corverde);
 }
 
+/* Configuração básica de grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12 colunas iguais */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.grid-12 {
+    grid-column: span 12; /* Ocupa todas as 12 colunas */
+}
+
+.grid-6 {
+    grid-column: span 6; /* Ocupa 6 colunas */
+}
+
+.grid-4 {
+    grid-column: span 4; /* Ocupa 4 colunas */
+}
+
+.grid-3 {
+    grid-column: span 3; /* Ocupa 3 colunas */
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.pt {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.des {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.professores .pr img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.professores .pr {
+    text-align: center;
+}
+
+.p0 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.pr {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pr img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.reds-soc img {
+    margin: 5px;
+    width: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 3rem;
+}
+
+.pr {
+    grid-column: span 3; /* Cada bloco ocupa 6 colunas (metade do layout) */
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+.pt, .ae, .des, .reds-soc {
+    margin-bottom: 15px;
+}
+
+.reds-soc img {
+    width: 30px;
+    margin: 0 5px;
+}
+
 
