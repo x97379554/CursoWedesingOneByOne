@@ -338,5 +338,46 @@ footer{
     width: 30px;
     margin: 0 5px;
 }
+.perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.perfil h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    font-size: 16px;
+    color: var(--corpreta);
+}
+
+.descricao h2, .contato h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato ul li {
+    margin-bottom: 5px;
+}
+
+.contato ul li a {
+    color: var(--corverde);
+}
+.perfil2{
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 
