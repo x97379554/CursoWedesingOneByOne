@@ -45,12 +45,16 @@
 
 .menu li a {
     text-decoration: none;
-    color: #333;
+    color: var(--corpreta);
     font-weight: bold;
 }
 
 .menu li a:hover {
     border-bottom: 1px solid var(--corverde);
+}
+footer{
+  background-color: var(--corverdeescura);
+  color: var(--corbranca);
 }
 
 
