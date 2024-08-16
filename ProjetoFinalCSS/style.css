@@ -11,9 +11,24 @@
     box-sizing: border-box;
 }
 
-.container{
+  .container {
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+  .cabecalho img{
+    justify-content: start;
+  }
+
+
+
+  
+  
 
