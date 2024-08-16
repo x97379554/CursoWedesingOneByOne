@@ -11,21 +11,99 @@
     box-sizing: border-box;
 }
 
-  .container {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas: uma para o logo, outra para a nav-bar */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto; /* Centraliza o conteúdo no meio da página */
 }
 
-  .cabecalho img{
-    justify-content: start;
-  }
+  .cabecalho {
+    padding: 20px 0;
+    border-bottom: 5px solid var(--corverde) ;
+}
+
+
+
+.logo img {
+    max-height: 60px; /* Define uma altura máxima para o logo */
+}
+
+.nav-bar {
+    justify-self: end; /* Posiciona a barra de navegação no canto direito */
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+}
+footer{
+  background-color: var(--corverdeescura); /* Cor de fundo do rodapé */
+  padding: 40px 0; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer {
+  padding-bottom: 11.75rem;
+}
+
+.lg img {
+  max-height: 60px; /* Define uma altura máxima para o logo */
+}
+
+.submenu ul {
+  list-style: none;
+  margin-left: 0.85rem;
+}
+
+.submenu ul li {
+  margin-bottom: 1.12rem; /* Espaçamento entre os itens da lista */
+}
+
+.submenu ul li a {
+  text-decoration: none;
+  color: var(--corbranca);
+  font-weight: bold;
+
+}
+
+.redes {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os ícones das redes sociais */
+  justify-content: end;
+}
+
+.redes i {
+  color: var(--corbranca);
+}
+.text1{
+
+}
+.text1 p{
+  color: var(--corpreta);
+  font-family: "PT Sans";
+  font-size: 1rem;
+  font-style: normal;
+  width: 40.5rem;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
 
 
 
