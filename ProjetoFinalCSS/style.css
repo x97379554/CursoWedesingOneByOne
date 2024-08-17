@@ -115,10 +115,20 @@ footer{
   grid-column: span 2;
   font-size: 36px;
 }
-.text1::before{
-  color: var(--corverde);
-  content: url(imgs/Rectangle\ 31.svg);
-  
+.prof::before{
+  content: url(imgs/-.svg);
+  display: block;
+  align-items: center;
+  margin-right: 1rem;
+}
+.prof::after{
+  content: url(imgs/-.svg);
+  display: block;
+  align-items: center;
+  margin-left: 1rem;
+}
+.prof h2{
+  padding-top: 0.6875rem;
 }
 
 /* Cards ocupando 2 colunas, texto centralizado abaixo da imagem */
@@ -145,15 +155,50 @@ footer{
 .prof-n{
   font-size: 20px;
 }
+footer{
+  padding: 2.25rem;
+}
 .main-footer{
-  grid-column: span 12;
-  color: var(--corbranca);
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  
 }
 
-.main-footer img{
-  grid-column: span 3;
+.lg img{
+  padding-bottom: 11.75rem ;
+  margin-top: 3.62rem;
+}
+
+
+.submenu{
+  margin-left: 5.25rem;
+  margin-bottom: 6.13rem;
+  margin-top: 4.5rem
+}
+
+.submenu a{
+  color: var(--corbranca);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.submenu li{
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.redes{
+  display: flex;
+  width: 9.9375rem;
+  height: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 4.56rem;
+  margin-left: 45.69rem;
+  margin-bottom: 12.7;
+  
 }
   
   
