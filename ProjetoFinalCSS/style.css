@@ -46,7 +46,13 @@
 .menu li a {
     text-decoration: none;
     color: var(--corpreta);
-    font-weight: bold;
+    text-align: right;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .menu li a:hover {
@@ -75,13 +81,17 @@ footer{
   margin-left: 21rem;
   margin-top: 3rem;
   margin-bottom: 4.5rem;
+  
 }
-
+.text1 a{
+  color: var(--corverde);
+}
 /* Cards ocupando 4 colunas, texto centralizado abaixo da imagem */
 .card1 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
+  font-size: 32px;
   grid-column: span 12;
   justify-content: center;
   margin-bottom: 10.1875rem;
@@ -101,8 +111,14 @@ footer{
 .prof {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   grid-column: span 2;
+  font-size: 36px;
+}
+.text1::before{
+  color: var(--corverde);
+  content: url(imgs/Rectangle\ 31.svg);
+  
 }
 
 /* Cards ocupando 2 colunas, texto centralizado abaixo da imagem */
@@ -123,8 +139,11 @@ footer{
   gap: 4.5rem;
 }
 
-.col-2  {
+.col-2 p  {
   padding: 0.625rem;
+}
+.prof-n{
+  font-size: 20px;
 }
 .main-footer{
   grid-column: span 12;
