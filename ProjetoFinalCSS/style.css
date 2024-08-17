@@ -52,9 +52,74 @@
 .menu li a:hover {
     border-bottom: 1px solid var(--corverde);
 }
+
+.banner1{
+  width: 100%;
+  grid-column: span 12;
+}
 footer{
   background-color: var(--corverdeescura);
   color: var(--corbranca);
+}
+/* Alinhamento centralizado ocupando 6 colunas */
+.text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-column: span 6;
+  font-size: 16px;
+  width: 40.5rem;
+  margin-left: 21rem;
+  margin-top: 3rem;
+}
+
+/* Cards ocupando 4 colunas, texto centralizado abaixo da imagem */
+.card1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  grid-column: span 12;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.card1 .col-4 {
+  grid-column: span 4;
+  text-align: center;
+}
+
+.card1 img {
+  margin-bottom: 10px;
+}
+
+/* Centralizando título */
+.prof {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  grid-column: span 2;
+}
+
+/* Cards ocupando 2 colunas, texto centralizado abaixo da imagem */
+.card2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  grid-column: span 12;
+  margin-left: 15.31rem;
+  justify-content: center;
+  
+}
+
+.card2 .col-2 {
+  grid-column: span 2;
+  text-align: center;
+  gap: 4.5rem;
+}
+
+.card2 img p {
+  margin-bottom: 0.62rem;
 }
 
 
