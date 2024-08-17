@@ -60,18 +60,21 @@
 footer{
   background-color: var(--corverdeescura);
   color: var(--corbranca);
+  display: flex;
+  justify-content: center;
 }
 /* Alinhamento centralizado ocupando 6 colunas */
 .text1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: start;
   grid-column: span 6;
   font-size: 16px;
   width: 40.5rem;
   margin-left: 21rem;
   margin-top: 3rem;
+  margin-bottom: 4.5rem;
 }
 
 /* Cards ocupando 4 colunas, texto centralizado abaixo da imagem */
@@ -81,12 +84,13 @@ footer{
   gap: 1rem;
   grid-column: span 12;
   justify-content: center;
-  margin: 40px 0;
+  margin-bottom: 10.1875rem;
 }
 
 .card1 .col-4 {
   grid-column: span 4;
   text-align: center;
+  gap: 8rem;
 }
 
 .card1 img {
@@ -103,27 +107,35 @@ footer{
 
 /* Cards ocupando 2 colunas, texto centralizado abaixo da imagem */
 .card2 {
-  display: grid;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3rem;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
-  grid-column: span 12;
   margin-left: 15.31rem;
-  justify-content: center;
+  margin-bottom: 6.25rem;
+  
   
 }
 
 .card2 .col-2 {
-  grid-column: span 2;
+  grid-column: span 12;
   text-align: center;
   gap: 4.5rem;
 }
 
-.card2 img p {
-  margin-bottom: 0.62rem;
+.col-2  {
+  padding: 0.625rem;
+}
+.main-footer{
+  grid-column: span 12;
+  color: var(--corbranca);
+  display: flex;
+  justify-content: space-between;
 }
 
-
-
+.main-footer img{
+  grid-column: span 3;
+}
   
   
 
