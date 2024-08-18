@@ -245,6 +245,7 @@ footer{
   font-weight: 400;
   line-height: 1.5rem; 
 }
+
 .card3{
   display: flex;
   justify-content: center;
@@ -252,6 +253,14 @@ footer{
   margin-left: 13.25rem;
   gap: 4.25rem;
   
+}
+
+.card3 .col-3 {
+  text-align: center;
+  gap: 4.5rem;
+}
+.col-3 p  {
+  padding: 0.625rem;
 }
 .temp1{
   padding-top: 2.7rem;
