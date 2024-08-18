@@ -214,8 +214,50 @@ footer{
 .des a {
   color: var(--corverde);
 }
+.h-text{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-left: 14.06rem;
+  margin-top: 2.45rem;
+}
+.h-text h2{
+  text-align: start;
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.text2{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.25rem;
+}
+
+.text2 p{
+  text-align: start;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; 
+}
+.card3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13.25rem;
+  gap: 4.25rem;
+  
+}
 .temp1{
   padding-top: 2.7rem;
+}
+.temp2{
+  max-width: 54.5rem;
 }
   
 
