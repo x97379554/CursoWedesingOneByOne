@@ -396,6 +396,44 @@ button:hover {
   background-color: var(--corverde);
   color: var(--corpreta);
 }
+.prof-1 h2{
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rede-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rede-p i{
+  margin-right: 1.5rem;
+  color: var(--corverde);
+}
+.card4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.col-pr{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.col-pr p {
+  text-align: center;
+}
+.des-p{
+  padding: 1rem;
+  width: 19.5rem;
+}
 
 .temp1{
   padding-top: 2.7rem;
