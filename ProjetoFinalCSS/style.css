@@ -414,10 +414,11 @@ button:hover {
 .rede-p{
   display: flex;
   justify-content: center;
-  align-items: center;
+
 }
 .rede-p i{
   margin-right: 1.5rem;
+  text-align: center;
   color: var(--corverde);
 }
 
@@ -467,6 +468,13 @@ button:hover {
 
 .des-p a{
   color: var(--corverde);
+}
+.bar{
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-top: 1.625rem;
+
 }
 
 .temp1{
