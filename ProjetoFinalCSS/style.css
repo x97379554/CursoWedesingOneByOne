@@ -396,13 +396,20 @@ button:hover {
   background-color: var(--corverde);
   color: var(--corpreta);
 }
+
+.prof-1{
+  margin-bottom: 2.625rem;
+  margin-top: 4.5rem;
+}
 .prof-1 h2{
   font-family: "PT Serif";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
 }
+
 
 .rede-p{
   display: flex;
@@ -413,12 +420,29 @@ button:hover {
   margin-right: 1.5rem;
   color: var(--corverde);
 }
+
 .card4{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 3rem;
   
+}
+.card5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.prof-n2 b{
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .col-pr{
   display: block;
@@ -427,12 +451,22 @@ button:hover {
   margin-left: 1.5rem;
 }
 
+
+.col-pr a {
+  color: var(--corpreta);
+}
+
 .col-pr p {
   text-align: center;
+  margin-bottom: 0.625rem;
 }
 .des-p{
   padding: 1rem;
   width: 19.5rem;
+}
+
+.des-p a{
+  color: var(--corverde);
 }
 
 .temp1{
@@ -440,6 +474,13 @@ button:hover {
 }
 .temp2{
   max-width: 54.5rem;
+}
+
+.temp3{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13.625rem;
 }
   
 
