@@ -514,4 +514,40 @@ button:hover {
   border-radius: 1.5px;
 }
   
+@media (max-width: 768px) {
+  .container, 
+  .text1, 
+  .card1, 
+  .card2, 
+  .card3, 
+  .prof, 
+  .prof-1, 
+  .text2, 
+  .text3, 
+  .rede-p, 
+  .card4, 
+  .card5, 
+  .des-p, 
+  .bar, 
+  .temp1, 
+  .temp2, 
+  .temp3, 
+  .main-footer, 
+  .contato .form-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+    width: 100%; 
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container {
+    width: 100%; 
+    max-width: 100%; 
+  }
+}
+
+
 
