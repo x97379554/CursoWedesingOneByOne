@@ -16,7 +16,7 @@
   grid-template-columns: 1fr 1fr; /* Duas colunas: uma para o logo, outra para a nav-bar */
   align-items: center; /* Centraliza verticalmente os elementos */
   width: 100%;
-  max-width: 1320px;
+  max-width: 1320px; /*82.5rem*/
   margin: 0 auto; /* Centraliza o conteúdo no meio da página */
 }
 
