@@ -56,7 +56,9 @@
 }
 
 .menu li a:hover {
-    border-bottom: 1px solid var(--corverde);
+  border-bottom:  solid var(--corverdeescura);
+  padding-bottom: 0.625rem;
+  border-radius: 1.5px;
 }
 
 .banner1{
@@ -489,6 +491,27 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-bottom: 13.625rem;
+}
+/*Aplicando bordas*/
+#home-m{
+  border-bottom:  solid var(--corverdeescura);
+  padding-bottom: 0.625rem;
+  border-radius: 1.5px;
+}
+#cursos-m{
+  border-bottom:  solid var(--corverdeescura);
+  padding-bottom: 0.625rem;
+  border-radius: 1.5px;
+}
+#profs-m{
+  border-bottom:  solid var(--corverdeescura);
+  padding-bottom: 0.625rem;
+  border-radius: 1.5px;
+}
+#contato-m{
+  border-bottom:  solid var(--corverdeescura);
+  padding-bottom: 0.625rem;
+  border-radius: 1.5px;
 }
   
 
