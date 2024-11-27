@@ -19,7 +19,14 @@ module.exports = (grunt) => {
 			},
 		},
 		sass: {
+			options: {
+                implementation: require('sass'),
+                outputStyle: 'compressed'
+            },
 			dist: {
+				options: {
+					style: 'compressed',
+				},
 				files: [
 					{
 						expand: true,
@@ -40,7 +47,7 @@ module.exports = (grunt) => {
 				},
 			},
 			styles: {
-				files: ['src/css/**/*.scss'],
+				files: ['src/css//*.scss'],
 				tasks: ['sass'],
 				options: {
 					spawn: false,
@@ -51,7 +58,7 @@ module.exports = (grunt) => {
 
 	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	// Default task(s).
