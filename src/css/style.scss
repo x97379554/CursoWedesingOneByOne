@@ -508,26 +508,12 @@ button:hover {
   margin-bottom: 13.625rem;
 }
 /*Aplicando bordas*/
-#home-m{
+#home-m, #contato-m, #profs-m, #curso-m, #Games-m{
   border-bottom:  solid var(--corverdeescura);
   padding-bottom: 0.625rem;
   border-radius: 1.5px;
 }
-#cursos-m{
-  border-bottom:  solid var(--corverdeescura);
-  padding-bottom: 0.625rem;
-  border-radius: 1.5px;
-}
-#profs-m{
-  border-bottom:  solid var(--corverdeescura);
-  padding-bottom: 0.625rem;
-  border-radius: 1.5px;
-}
-#contato-m{
-  border-bottom:  solid var(--corverdeescura);
-  padding-bottom: 0.625rem;
-  border-radius: 1.5px;
-}
+
 image{
   width: 100%;
 
