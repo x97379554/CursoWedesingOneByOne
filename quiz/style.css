@@ -5,14 +5,14 @@
 }
 header {
 /* Plano de fundo com cor gradiente */
-background: linear-gradient(to right, #1fba00, #8caf4c);
+background: linear-gradient(to right, #191a19, #0303033a);
 color: #fff;
 padding: 10px;
 text-align: center;
 border-bottom: 7px solid #000000;
 }
 body {
-background-image: url(imgs/bg_ben10.jpg);
+background-image: url(imgs/bgquiz.png);
 background-repeat: no-repeat;
 background-size: cover;
 display: flex;
@@ -27,9 +27,8 @@ align-items: center;
 padding: 20px; /* Adiciona padding para evitar sobreposição com o conteúdo do header */
 }
 .container {
-  width: 80%; /* Usando porcentagem para flexibilidade */
-  max-width: 800px; /* Ajuste o valor conforme necessário */
-  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 80%; 
+  margin: 0 auto; 
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -38,12 +37,15 @@ padding: 20px; /* Adiciona padding para evitar sobreposição com o conteúdo do
 }
 
 .comentC {
-color: rgb(24, 255, 24);
+color: rgb(28, 124, 202);
 font-weight: bold;
 }
 .questons {
 font-size: 25px;
 text-align: center;
+}
+.questons p{
+  font-size: 27px;
 }
 .comentI {
 color: red;

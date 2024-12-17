@@ -558,6 +558,31 @@ image{
     max-width: 100%; 
   }
 }
+//rodape
+@media (max-width: 768px) {
+  .main-footer  {
+      flex-direction: column;
+      text-align: center;
+  }
+  .lg {
+    text-align: center;
+  }
+
+  .lg,
+  .redes {
+      margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+  }
+
+  .card {
+      width: 100%;
+      margin: 10px 0;
+  }
+}
 //tela games
 .card-container { 
   display: flex; 
