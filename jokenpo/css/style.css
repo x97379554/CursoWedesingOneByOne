@@ -1,0 +1,153 @@
+*{
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+}
+img{
+       width: 3.5rem;
+}
+
+body {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       background-color: #161616;
+     }
+     
+    
+     main {
+       padding: 20px;
+       width: 100%;
+       max-width: 600px;
+       text-align: center;
+     }
+     
+h1 {
+       color: #ececec;
+       font-size: 24px;
+       margin-bottom: 20px;
+     }
+     
+     #popup-container {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(0, 0, 0, 0.5);
+     }
+     
+     #popup {
+       background-color: rgb(204, 214, 223);
+       padding: 20px;
+       border-radius: 8px;
+       text-align: center;
+     }
+     
+     #popup h1 {
+       margin-bottom: 20px;
+       font-size: 20px;
+     }
+     
+     #popup input {
+       padding: 10px;
+       width: 80%;
+       margin-bottom: 15px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+     }
+     
+     #popup button {
+       padding: 10px 15px;
+       margin: 5px;
+       background-color: #0554a8;
+       color: white;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     #popup button:hover {
+       background-color: #ffef0c;
+       color: #161616;
+     }
+     
+     #opcoes {
+       margin-bottom: 20px;
+     }
+     
+     #opcoes button {
+       background-color: transparent;
+       border: none;
+       cursor: pointer;
+     }
+     
+     #opcoes img {
+       width: 80px;
+       height: 80px;
+       border-radius: 10px;
+       border: 2px solid transparent;
+     }
+     
+     #opcoes .selecionado img {
+       border-color: #ffd903;
+       box-shadow: 0 0 10px #ffd000;
+     }
+     
+     /* Estilo do botão jogar */
+     #jogar {
+       padding: 10px 20px;
+       font-size: 16px;
+       background-color: #9aa728;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+     }
+     
+     #jogar[disabled] {
+       background-color: #ccc;
+       cursor: not-allowed;
+     }
+     
+     #jogar:hover:not([disabled]) {
+       background-color: #218838;
+     }
+     
+
+
+#resultado {
+       font-size: 20px;
+       font-weight: bold;
+       margin: 20px 0;
+       color: #ffffff;
+     }
+     
+     table {
+       width: 100%;
+       border-collapse: collapse;
+       margin: 20px 0;
+       color: #f9f9f9;
+     }
+     
+     table, th, td {
+       border: 1px solid #ddd;
+     }
+th, td {
+       padding: 10px;
+       text-align: center;
+     }
+     
+thead {
+       background-color: #ffd900;
+       color: white;
+     }
+     
+tbody tr:nth-child(even) {
+       background-color: #ffbb00;
+     }
+     

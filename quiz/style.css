@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+/* Plano de fundo com cor gradiente */
+background: linear-gradient(to right, #1fba00, #8caf4c);
+color: #fff;
+padding: 10px;
+text-align: center;
+border-bottom: 7px solid #000000;
+}
+body {
+background-image: url(imgs/bg_ben10.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+main {
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px; /* Adiciona padding para evitar sobreposição com o conteúdo do header */
+}
+.container {
+  width: 80%; /* Usando porcentagem para flexibilidade */
+  max-width: 800px; /* Ajuste o valor conforme necessário */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.comentC {
+color: rgb(24, 255, 24);
+font-weight: bold;
+}
+.questons {
+font-size: 25px;
+text-align: center;
+}
+.comentI {
+color: red;
+font-weight: bold;
+}
+.btn {
+background-color: #242323;
+color: #fff;
+margin: 5px;
+padding: 10px;
+cursor: pointer;
+}
+.btn:hover {
+background-color: #00c210;
+color: #fff;
+}

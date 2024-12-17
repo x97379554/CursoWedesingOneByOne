@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula js</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>Pedra papel e tesoura</h1>
+    <div id="popup-container">
+      <div id="popup">
+        <h2>Insira seu nome</h2>
+        <input type="text" id="nome-input">
+        <button id="salvar-nome">Salvar Nome</button>
+        <button id="fechar-popup">X</button>
+      </div>
+    </div>
+    <div id="opcoes">
+      <button id="pedra"><img src="imgs/rock.jpg" alt=""></button>
+      <button id="papel"><img src="imgs/paoer.jpg" alt=""></button>
+      <button id="tesoura"><img src="imgs/scissor.jpg" alt=""></button>
+    </div>
+    <div>
+      <button id="jogar" disabled>joga</button>
+      <p id="resultado">Resultado</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Rodada</th>
+            <th>Jogador</th>
+            <th>Computador</th>
+            <th>Vencedor</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
